@@ -2,6 +2,12 @@ package com.citasalud.modelo;
 
 import java.sql.Date;
 
+/**
+ * Clase modelo que representa a un paciente del sistema CITASALUD.
+ * Contiene los datos personales necesarios para registrar y gestionar
+ * la información de los pacientes.
+ */
+
 public class Paciente {
 
     private int idPaciente;

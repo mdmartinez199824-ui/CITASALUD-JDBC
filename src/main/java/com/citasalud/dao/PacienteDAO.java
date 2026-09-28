@@ -7,6 +7,12 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 import java.sql.ResultSet;
+
+/**
+ * Clase DAO encargada del acceso a los datos de los pacientes.
+ * Contiene las operaciones necesarias para registrar, consultar,
+ * actualizar y eliminar pacientes en la base de datos CITASALUD.
+ */
 public class PacienteDAO {
 
     public boolean insertar(Paciente paciente) {
