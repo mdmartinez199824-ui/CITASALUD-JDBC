@@ -1,0 +1,5 @@
+com\citasalud\conexion\ConexionBD.class
+com\citasalud\modelo\Paciente.class
+com\citasalud\dao\PacienteDAO.class
+com\citasalud\principal\Main.class
+com\citasalud\App.class
