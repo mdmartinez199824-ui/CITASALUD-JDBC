@@ -14,9 +14,10 @@ public class ConexionBD {
         Connection conexion = null;
 
         try {
+            Class.forName("com.mysql.cj.jdbc.Driver");
             conexion = DriverManager.getConnection(URL, USUARIO, CONTRASENA);
             System.out.println("Conexion exitosa a la base de datos CITASALUD.");
-        } catch (SQLException e) {
+        } catch (SQLException | ClassNotFoundException e) {
             System.out.println("Error al conectar con la base de datos: " + e.getMessage());
         }
 

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CITASALUD - Registro de Pacientes</title>
+</head>
+
+<body>
+
+    <h1>CITASALUD</h1>
+    <h2>Registro de Pacientes</h2>
+
+    <form action="pacientes" method="post">
+
+        <label>Tipo de documento:</label>
+        <select name="tipoDocumento" required>
+            <option value="CC">Cédula de Ciudadanía</option>
+            <option value="CE">Cédula de Extranjería</option>
+            <option value="TI">Tarjeta de Identidad</option>
+        </select>
+
+        <br><br>
+
+        <label>Número de documento:</label>
+        <input type="text" name="numeroDocumento" required>
+
+        <br><br>
+
+        <label>Nombres:</label>
+        <input type="text" name="nombres" required>
+
+        <br><br>
+
+        <label>Apellidos:</label>
+        <input type="text" name="apellidos" required>
+
+        <br><br>
+
+        <label>Fecha de nacimiento:</label>
+        <input type="date" name="fechaNacimiento">
+
+        <br><br>
+
+        <label>Teléfono:</label>
+        <input type="text" name="telefono">
+
+        <br><br>
+
+        <label>Correo electrónico:</label>
+        <input type="email" name="correo">
+
+        <br><br>
+
+        <button type="submit">Registrar paciente</button>
+
+    </form>
+
+</body>
+</html>
